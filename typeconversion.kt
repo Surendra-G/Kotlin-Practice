@@ -49,7 +49,7 @@ fun main(){   //starting point of the program just like in c-programming
 
     var ball = "Ronaldo"
     println(foot.equals(ball))
-    
+
     val str1 = "apple"
     val str2 = "banana"
 
