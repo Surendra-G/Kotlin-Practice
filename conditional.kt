@@ -22,7 +22,28 @@ fun main(){
     println(name)
 
     println("Enter a number to represents the weekdays: ")
-    var number = readLine().toInt()
+    var inputString = readLine()
+    var day = inputString?.toIntOrNull()
+
+    var result = when (day){
+        1->"Sunday"
+        2->"Monday"
+        3->"Tuesday"
+        4->"Wednesday"
+        5->"Thursday"
+        6->"Friday"
+        7->"Saturday"
+        else -> "Please enter the number ranges from1-7"
+    }
+
+    println("You choose: $result")
+
+    //while condition
+    var i = 0
+    while (i<=5){
+        println(i)
+        i++
+    }
 
 
 }
