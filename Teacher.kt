@@ -13,7 +13,7 @@ class Teacher {
     }
 }
 fun main(){
-    var t = Teacher("Surendra", 20)
-    t.teacherfun()
+    var t = Teacher("Surendra", 20)  //instanse of the class or object of the class
+    t.teacherfun()   //calling the function through the object name
 
 }
