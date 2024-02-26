@@ -18,8 +18,7 @@ class Student(val name: String, val gpa: Double, val semester: String, val estim
 
 //When the instance is created and the function is called, the when expression will be executed and return the letter grade
 fun main() {
-    var student = Student("Lucia", 3.95, "Fall", 2022)
-//Prints: Lucia has 2 years left in college.
+    var student = Student("Surendra", 3.95, "Fall", 2022)
     println("${student.name}'s letter grade is ${student.calculateLetterGrade()}.")
     //Prints: Lucia's letter grade is A.
 }
